@@ -11,7 +11,7 @@
 			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 			crossorigin="anonymous"
 		/>
-		<title>Java-Webapp | Home</title>
+		<title>Java-Webapp | Login</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -40,7 +40,37 @@
 				</div>
 			</div>
 		</nav>
-
+		<section>
+			<div>
+				<form action="" method="GET">
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input
+							type="email"
+							class="form-control"
+							name="email"
+							id="email"
+							aria-describedby="emailHelp"
+							placeholder="Enter email"
+						/>
+						<small id="emailHelp" class="form-text text-muted"
+							>We'll never share your email with anyone else.</small
+						>
+					</div>
+					<div class="form-group">
+						<label for="password">Password</label>
+						<input
+							type="password"
+							class="form-control"
+							name="password"
+							id="password"
+							placeholder="Password"
+						/>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</section>
 		<script
 			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
